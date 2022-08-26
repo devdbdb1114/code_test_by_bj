@@ -51,6 +51,7 @@ public class bj1253 {
 		}
 		
 		System.out.println(count);
+		nnum.bfclose();
 		
 	}
 

@@ -68,4 +68,10 @@ class Num {
 	}
 	 
 	int i() {	return Integer.parseInt(stringTokenizer.nextToken());	}
+	
+	String s() { return stringTokenizer.nextToken(); }
+	
+	void bfclose() throws IOException{
+		br.close();
+	}
 }
